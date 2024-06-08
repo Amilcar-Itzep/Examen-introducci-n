@@ -1,0 +1,19 @@
+#tabla-alumnos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tabla-alumnos th, #tabla-alumnos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#tabla-alumnos th {
+    background-color: #007bff;
+    color: white;
+}
+
+#tabla-alumnos tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
